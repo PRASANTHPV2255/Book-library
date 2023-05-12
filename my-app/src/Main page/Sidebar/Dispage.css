@@ -1,0 +1,70 @@
+
+
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+}
+.paginationBttns a{
+    padding: 10px;
+    color: rgb(22, 54, 81);
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(87, 82, 82);
+    text-decoration: none;
+}
+.paginationBttns a:hover{
+    color: rgb(85, 14, 14);
+    background-color: rgb(146, 146, 129);
+}
+.paginationActive a{
+    color: brown;
+    background-color: rgb(146, 146, 129);
+}
+
+.logout{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-color:#403b4d;
+    width:13rem;
+    height:100vh;
+    font-size:19px;
+    font-style:oblique;
+    padding-top:3rem;
+    border-top-right-radius:90px;
+    /* text-align:center; */
+    font-weight: 10rem;
+    
+}
+.Table{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5rem;
+    overflow: scroll;
+}
+.Table::-webkit-scrollbar{
+    display: none;
+}
+
+.hovereffect{
+    color: #FFD700;
+}
+.hovereffect:hover{
+     color: azure ;
+}
+.cardstyle{
+    width: 22rem;
+    height: 27rem;
+    margin-top: 1rem;
+    background-color: #E3E639;
+    flex-direction: column;
+}
+.cardbutton{
+    margin-top: 2rem;
+}

@@ -1,0 +1,10 @@
+
+.app{
+    margin: 0;
+    background: rgb(235, 229, 229);
+   max-width:100%;
+    height:120vh;
+}
+.carddiv::-webkit-scrollbar{
+    display: none;
+}
